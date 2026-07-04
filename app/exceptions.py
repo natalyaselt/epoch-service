@@ -21,19 +21,13 @@ def get_friendly_message(error_type: str) -> str:
 
     messages = {
         "missing": "The 'date' field is required.",
-
         "datetime_from_date_parsing": (
-            "Invalid date format. Expected ISO-8601 format "
-            "(YYYY-MM-DDTHH:MM:SSZ)."
+            "Invalid date format. Expected ISO-8601 format " "(YYYY-MM-DDTHH:MM:SSZ)."
         ),
-
         "datetime_parsing": (
-            "Invalid date format. Expected ISO-8601 format "
-            "(YYYY-MM-DDTHH:MM:SSZ)."
+            "Invalid date format. Expected ISO-8601 format " "(YYYY-MM-DDTHH:MM:SSZ)."
         ),
-
         "json_invalid": "Malformed JSON request.",
-
         "string_type": "The 'date' field must be a string.",
     }
 
